@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <unistd.h>
+#include<stdio.h>
+#include<unistd.h>
 /**
  * main - Entry point
  * Description: prints all possible combination of 2-digits numbers
@@ -9,7 +9,7 @@ int main(void)
 {
 	int c, i, k, j;
 
-	for (c = 48; c <= 57; i++)
+	for (c = 48; c <= 57; c++)
 	{
 		for (i = 48; i <= 57; i++)
 		{
@@ -24,7 +24,7 @@ int main(void)
 						putchar(' ');
 						putchar(k);
 						putchar(j);
-
+						
 						if (c + i + k + j == 227 && c == 57)
 						{
 						break;
