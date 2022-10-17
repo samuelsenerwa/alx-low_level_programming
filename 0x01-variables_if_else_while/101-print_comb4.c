@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -16,13 +16,13 @@ int main(void)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
-				if (c < 1 && i < k )
+				if (c < 1 && i < k)
 				{
 					putchar(c);
 					putchar(i);
 					putchar(k);
 
-					if (c != '7' )
+					if (c != '7')
 					{
 						putchar(',');
 						putchar(' ');
