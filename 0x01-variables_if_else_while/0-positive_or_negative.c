@@ -3,15 +3,17 @@
 #include <time.h>
 /*
  * main - functio to be executed
- * description: print if a number is positive or negative
+ * Description: print if a number is positive or negative.
  * Return: 0
  */
 int main(void)
 {
 	int n;
+
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n>0)
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
@@ -23,6 +25,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return(0);
+	return (0);
 }
 
