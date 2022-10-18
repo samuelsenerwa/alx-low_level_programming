@@ -6,6 +6,7 @@
  * @c: it recievers an integer value
  * Return: 1 if true. 0 if false.
  */
+
 int _islower(int c)
 {
 int i = 'a';
