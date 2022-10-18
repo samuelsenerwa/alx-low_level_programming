@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isslower - Entry point
+ * _islower - Entry point
  * Description: checks is a character is lowercase
  * it recievers an integer value
  * Return: 1 if true. 0 if false.
@@ -12,7 +12,7 @@ int i = 'a';
 for (i = 'a'; i <= 'z'; i++)
 {
 /*reference to int c*/
-if (c ==i)
+if (c == i)
 {
 return (1);
 }
