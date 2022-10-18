@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 /**
  * main - Entry Point
  * Description: prints 'Alx\n'
@@ -14,7 +13,7 @@ int main(void)
 		{
 			char c = str[i];
 
-			putchar(c);
+			_putchar(c);
 			i++;
 		}
 		return (0);
