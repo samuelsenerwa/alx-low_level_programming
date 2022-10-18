@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _islower.c - Entry point
  * Description: checks is a character is lowercase
