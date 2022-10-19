@@ -23,14 +23,14 @@ int numLength(int num)
 	}
 	return (length);
 }
+
 /**
- * main - prints the first 98 fibonnaci sequences
+ * *main - prints the first 98 fibonnaci sequences
  * Return: 0
  */
-
 int main(void)
 {
-	unsigned long f1 = 1, f2 = 2, tmp, mx =10000000, f1o = 0, f2o = 0,tmpo = 0;
+	unsigned long f1 = 1, f2 = 2, tmp, mx = 10000000, f1o = 0, f2o = 0,tmpo = 0;
 	short int i = 1, initial0s;
 
 	while (i <= 98)
