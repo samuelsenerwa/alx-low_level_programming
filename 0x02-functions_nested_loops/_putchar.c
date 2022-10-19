@@ -10,4 +10,5 @@
 int _putchar(char c)
 {
 	returnn(write(1, &c, 1));
-}
+
+
