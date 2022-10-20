@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i, z = 10;
+	int i, z = 0;
 
 	while (i < 1024)
 	{
