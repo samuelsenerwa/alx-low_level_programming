@@ -2,7 +2,7 @@
 
 /**
  * mul - gives the product of a and b
- * @: variable
+ * @a: variable
  * @b: variable
  *
  * Return: a * b
