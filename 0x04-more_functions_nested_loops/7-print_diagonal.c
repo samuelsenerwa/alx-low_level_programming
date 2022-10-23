@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * prnt_diagonal - diagonal made of backlashes
+ * print_diagonal - diagonal made of backlashes
  * @n: numbers of \ to be printed
  * Return: void
  */
