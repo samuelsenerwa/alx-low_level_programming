@@ -3,6 +3,8 @@
 /**
  * main - Fizz Buzz code
  *
+ *Description: prints Fizz Buzz for both maultiple of 3 and 5
+ * 
  * Return:void
  */
 
