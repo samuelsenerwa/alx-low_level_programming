@@ -5,14 +5,14 @@
  *
  *Description: prints Fizz Buzz for both maultiple of 3 and 5
  * 
- * Return:void
+ *Return: void
  */
 
 int main(void)
 {
 	int i = 1;
 
-	while(i <= 100)
+	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -34,7 +34,6 @@ int main(void)
 		{
 			putchar(' ');
 		}
-
 		i++;
 	}
 	putchar('\n');
