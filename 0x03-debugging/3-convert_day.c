@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
+/**
  * convert_day - convert day of month to day of year, without considering
  * leap year
- * @maonth: month in number format
+ * @month: month in number format
  * @day: day of the month
  * Return: day of year
  */
