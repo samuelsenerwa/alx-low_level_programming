@@ -3,7 +3,7 @@
 
 /**
  * count_word - helper function to count the number of words in a string
- * @s: string to evaluate 
+ * @s: string to evaluate
  *
  * Return: number of words
  */
@@ -52,7 +52,7 @@ char **strtow(char *str)
 	{
 		if (str[i] == ' ' || str[i] == '\0')
 		{
-			if(c)
+			if (c)
 			{
 				end = i;
 				tmp = (char *) malloc(sizeof(char) * (c + 1));
