@@ -19,7 +19,7 @@ int _atoi(char *s)
 	digit = 0;
 
 	while (s[len] != '\0')
-		len ++;
+		len++;
 
 	while (i < len && f == 0)
 	{
@@ -35,6 +35,7 @@ int _atoi(char *s)
 			f = 1;
 			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
+
 			f = 0;
 		}
 		i++;
@@ -42,16 +43,16 @@ int _atoi(char *s)
 
 	if (f == 0)
 		return (0);
-	
+
 	return (n);
 }
 
 /**
- * main - adds two positive number
- * @argc: number of arguments
- * @argv: array of arguents
+ *  main - adds two positive number
+ *  @argc: number of arguments
+ *  @argv: array of arguents
  *
- * Return: 0 (Success), or 1 (Success)
+ *  Return: 0 (Success), or 1 (Success)
  */
 int main(int argc, char *argv[])
 {
@@ -61,25 +62,23 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		for (j = 0; argv[i][j] != '\0'; j++)
+		if (argv[i][j] > '9' || argv[i][j] < '0')
 		{
-			if (argv[i][j] > '9' || argv[i][j] < '0')
-			{
-				puts("Error");
-				return (1);
-			}
+			puts("Error");
+			return (1);
 		}
 	}
 
-	for (k = 1; k < argc; k++)
+
+for (k = 1; k < argc; k++)
+{
+	num = _atoi(argv[k]);
+	if (num >= 0)
 	{
-		num = _atoi(argv[k]);
-		if (num >= 0)
-		{
-			sum += num;
-		}
+		sum += num;
 	}
+}
 
-	printf("%d\n", sum);
-	return (0);
+printf("%d\n", sum);
+return (0);
 }
