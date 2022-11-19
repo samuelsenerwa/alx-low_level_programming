@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - calculates the sum of all its parameter
+ * @separator: string to be printed between numbers
  * @n: number of arguments passed to the function
  *
  * Return: the resulting sum
