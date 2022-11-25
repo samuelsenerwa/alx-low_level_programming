@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
- * main - Fizz Buzz code
- *
- *Description: prints Fizz Buzz for both maultiple of 3 and 5
- * 
- *Return: void
+ * main -prints the numbers form 0 to 100 followed by a new line
+ * but for multiple of three prints Fizz instead of the number
+ * and for multiple of five prints Buzz
+ * Return: Always 0 (succes)
  */
 
 int main(void)
