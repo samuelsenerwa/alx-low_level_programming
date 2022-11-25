@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * prnt_diagonal - diagonal made of backlashes
+ * print_diagonal - diagonal made of backlashes
  * @n: numbers of \ to be printed
  * Return: void
  */
@@ -11,7 +11,8 @@ void print_diagonal (int n)
 	if (n <= 0)
 	{
 		_putchar('\n');
-	} else
+	}
+	else
 	{
 		int i, j;
 
