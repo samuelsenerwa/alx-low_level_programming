@@ -6,6 +6,7 @@
  *   @idx: index of the node to be added
  *  @n: content of the new node
  *  
+ *  Description: functon to insert into link list
  *     Return: the address of the node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
