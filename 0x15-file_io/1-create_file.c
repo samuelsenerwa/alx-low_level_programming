@@ -11,27 +11,24 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd;
-	size_t len = 0;
-	ssize_t check = 0;
+	int o, w, len = 0;
 
 	if (filename == NULL)
 		return (-1);
 
-	/* Find the length of the content*/
-	while (text_content[len] && text_content)
-		len++;
-
-	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, 0600);
-
-	if (fd == -1)
-		return (-1);
 	if (text_content != NULL)
-		check = write(fd, text_content, len);
+	{
+		for (len = 0; text_content[len];)
+			len++;
+	}
 
-	if (check == -1)
+	o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+	w = write(o, text_content, len);
+
+	if (o == -1 || w == 1)
 		return (-1);
 
-	close(fd);
+	close(o);
+
 	return (1);
 }
