@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - readds a textfile and prints it to the standard output
- *@filename: The name of the file to read
- *@letters: Numbers of letters it should print
- *Return: Number of letters it could print
+ * read_textfile - Reads a text file and prints it to the standard output
+ * @filename: The name of the file to read
+ * @letters: The number of letters it should read and print
+ *
+ * Return: Number of letters it could print
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
