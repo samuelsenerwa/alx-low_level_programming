@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * creat_file - creates a file
+ * create_file - creates a file
  * @filename: Name of file to be created
  * @text_content: String to write to file
  *
