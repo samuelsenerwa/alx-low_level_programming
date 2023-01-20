@@ -41,11 +41,22 @@ int mul(int i, int k)
 }
 
 /**
- * mod - finds the modulus of two integers
+ * div - finds the division of two integers
  * @i: first integer to modulus
  *
  * @k: second integer to modulus
  *
+ */
+
+int div(int i, int k)
+{
+	return (i / k);
+}
+
+/**
+ * mod - modulus of the two integers
+ * @i: first integer
+ * @k: second integer
  */
 
 int mod(int i, int k)
