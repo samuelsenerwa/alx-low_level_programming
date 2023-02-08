@@ -19,7 +19,7 @@
 <li><b>0x0D. C - Preprocessor</b></li>
 <li><b>0x0E. C - Structures, typedef</b></li>
 <li><b>0x0F. C - Function pointers</b></li>
-<li></b>0x10. C - Variadic functions</b></li>
+<li><b>0x10. C - Variadic functions</b></li>
 <li><b>0x11. C - printf</b></li>
 <li><b>0x12. C - Singly linked lists</b></li>
 <li><b>0x13-more_singly_linked_lists</b></li>
